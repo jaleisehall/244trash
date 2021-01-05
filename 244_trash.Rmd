@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(tidyverse)
 ggplot(data = starwars, aes(x = height, y = mass)) +
-  geom_point(col = "purple")
+  geom_point(col = "green")
 
 ```
 
